@@ -22,3 +22,16 @@ nav {
 			}
     }
 }
+
+// button hover effect 
+button,
+.button,
+input[type="submit"] {
+	transition: all .4s ease-out;
+	
+	&:hover,
+	&:focus {
+		transform: scale(1.05);
+		transition: all .3s ease-out;
+	}
+}

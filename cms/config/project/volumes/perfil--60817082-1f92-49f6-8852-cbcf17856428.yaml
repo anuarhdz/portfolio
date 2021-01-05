@@ -1,0 +1,38 @@
+fieldLayouts:
+  9a25fe3a-3827-4ecc-91de-a5997c0a9e17:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Contenido
+        sortOrder: 1
+handle: perfil
+hasUrls: true
+name: perfil
+settings:
+  path: '@mediaBasePath/perfil'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@mediaBaseUrl/perfil'
