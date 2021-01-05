@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+cms_
+cms/.env
+cms/config/general.php
+cms/templates/*
+cms/web/assets/*

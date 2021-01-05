@@ -1,0 +1,38 @@
+fieldLayouts:
+  1fff88ba-a1a2-418d-ba9a-05845856173d:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Contenido
+        sortOrder: 1
+handle: elements
+hasTitleField: false
+name: Elements
+section: b5181ea3-384a-4f89-90b6-c80f94671842
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

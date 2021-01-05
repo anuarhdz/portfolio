@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: es
+name: 'Anuar Reyes | Front-End Developer'
+primary: true
+siteGroup: 324b378e-3937-4a40-b44c-7ab3cf85f635
+sortOrder: 1

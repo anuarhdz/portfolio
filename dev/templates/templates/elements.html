@@ -1,0 +1,143 @@
+{% extends '_layout.html' %}
+
+{% block content %}
+<section class="elements">
+    <div>
+        <div id="test-css">
+            <P class="font-family">Font Family in use: <span></span></P>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="test-container">
+                <h1 class="hero-header test">Hero Header</h1>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+
+            <div class="test-container">
+                <h1 class="test">H1 Header</h1>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+            <div class="test-container">
+                <h2 class="test">H2 Header</h2>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+            <div class="test-container">
+                <h3 class="test">H3 Header</h3>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+            <div class="test-container">
+                <h4 class="test">H4 Header</h4>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+            <div class="test-container">
+                <h5 class="test">H5 Header</h5>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+            <div class="test-container">
+                <h6 class="test">H6 Header</h6>
+                <div class="label">
+                    <p class="font-size">font size: <span class="size"></span></p>
+                    <input type="range" min="1" max="150" class="slider font-size-slider">
+                </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <div class="test-container">
+                <p class="test is-large">This is a large paragraph <br> Integer posuere erat a ante venenatis dapibus posuere
+                    velit
+                    aliquet.
+                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.
+                    Praesent
+                    commodo
+                    cursus magna, vel scelerisque nisl consectetur et.</p>
+                <div class="p-controls">
+                    <div class="label">
+                        <p class="font-size">font size: <span class="size"></span></p>
+                        <input type="range" min="1" max="150" value="50" class="slider font-size-slider">
+                    </div>
+                    <div class="label">
+                        <p class="line-height">line height: <span class="size"></span></p>
+                        <input type="range" min="1" max="150" value="50" class="slider line-slider">
+                    </div>
+                </div>
+            </div>
+
+            <div class="test-container">
+                <p class="test">This is a normal paragraph <br> Integer posuere erat a ante venenatis dapibus posuere
+                    velit
+                    aliquet.
+                    Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor.
+                    Praesent
+                    commodo
+                    cursus magna, vel scelerisque nisl consectetur et.</p>
+                    <div class="p-controls">
+                        <div class="label">
+                            <p class="font-size">font size: <span class="size"></span></p>
+                            <input type="range" min="1" max="150" value="50" class="slider font-size-slider">
+                        </div>
+                        <div class="label">
+                            <p class="line-height">line height: <span class="size"></span></p>
+                            <input type="range" min="1" max="150" value="50" class="slider line-slider">
+                        </div>
+                    </div>
+            </div>
+
+            <br>
+            <hr>
+            <br>
+
+            <ol>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+                <li>Five</li>
+            </ol>
+
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+                <li>Five</li>
+            </ul>
+
+            <br>
+            <hr>
+            <br>
+
+            <form action="" style="display: flex; flex-direction: column; max-width: 300px;">
+                <input type="text" style="margin-bottom: 30px;">
+                <select name="" id="" style="margin-bottom: 30px;">
+                    <option value="">one</option>
+                    <option value="">two</option>
+                </select>
+                <textarea name="" id="" cols="30" rows="10" style="margin-bottom: 30px;"></textarea>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
