@@ -95,7 +95,7 @@ h6,
 /*-----------------------------------*\
 	PARAGRAPH
 \*-----------------------------------*/
-p {
+p, a {
 	font-size: 15px;
 	line-height: 1.5;
 	font-family: $ff-sansSerif;
@@ -157,6 +157,11 @@ p {
 		font-weight: bold;
 	}
 
+}
+
+a.inline-block{
+	display: inline-block;
+	text-decoration: none;
 }
 a, p a {
 	color: $black;

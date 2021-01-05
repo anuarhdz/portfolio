@@ -79,7 +79,7 @@ body {
 	SECTION
 \*-----------------------------------*/
 
-section {
+section, header, footer {
 	padding: 0 2em;
 
 	@media(min-width: $tablet-BP) {

@@ -2,4 +2,31 @@
 		MAIN NAV
 \*----------------------------------------------------------------*/
 
+header.main-nav{
+	&>div{
+		@media screen and (min-width: $tablet-BP){
+			display: flex;
+			justify-content: space-between;
 
+			.logo {
+				width: 30%;
+			}
+			.menu{
+				width: 70%;
+				display: flex;
+				justify-content: flex-end;
+				a{
+					margin-left: 10px;
+				}
+			}
+		}
+		
+		nav{
+			display: none;
+
+			@media screen and (min-width: $tablet-BP){
+				display: block;
+			}
+		}
+	}
+}
