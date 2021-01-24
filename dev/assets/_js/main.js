@@ -56,3 +56,15 @@ function testCss(){
     })
     
 }
+
+const path = window.location.pathname;
+const homepage = '/';
+// deactivate buttons 
+if(path == homepage){
+    const button = document.addEventListener('click', clickedButton, false);
+}
+
+function clickedButton(e){
+    e.preventDefault();
+    console.log('click en button!');
+}

@@ -49,6 +49,12 @@ body {
 	color: $black;
 }
 
+body{
+	height: 100vh;
+	max-height:100vh;
+	overflow:hidden;
+}
+
 *,
 *:before,
 *:after {
@@ -97,10 +103,15 @@ section, header, footer {
     }
 }
 
+// bp max-width mobile
+$mw-mobile: 767px;
+
 header {
-	&>div {
-		padding-top: 2em;
-		padding-bottom: 2em;
+	@media screen and (max-width: $mw-mobile){
+		&>div {
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
 	} 
 }
 
