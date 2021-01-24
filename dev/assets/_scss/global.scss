@@ -87,7 +87,7 @@ section, header, footer {
 	}
 
 	&>div {
-		padding: 4em 0;
+		padding: 1em 0;
 		max-width: 1200px;
         margin: 0 auto;
 
@@ -95,6 +95,13 @@ section, header, footer {
 			padding: 4em 2em;
         }
     }
+}
+
+header {
+	&>div {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	} 
 }
 
 
